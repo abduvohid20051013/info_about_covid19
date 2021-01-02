@@ -1,3 +1,153 @@
-body {
-	border: none!important;
+.card {
+	padding-top: 90px;
+	padding-left: 35px;
+}
+.visually-hidden {
+	position: absolute;
+	clip: rect(0,0,0,0);
+}
+.image {
+	max-width: 500px;
+	min-width: 50px;
+}
+.covidzone {
+	color: white!important;
+	background-image: 	linear-gradient(to bottom,  rgba(48,18,26,0.7),rgba(46,11,23,0.7)),
+						url("../img/3d-render-medical-background-with-heart-covid-19-virus-cells.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+a {
+	font-size: 17px;
+	color: white!important;
+}
+strong {
+	color: orange;
+}
+.menu-botton {
+	color: white;
+
+}
+.link {
+	padding-left: 20px;
+}
+.texts-wrapper {
+	margin: 0 auto;
+}
+.card-img-top {
+	width: 160px;
+}
+.card {
+	background: transparent;
+}
+.prevention {
+	color: white!important;
+	background-image: 	linear-gradient(to bottom,  rgba(254,117,176,0.8),rgba(254,117,176,0.8)),
+						url(../img/3416667.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+.imag {
+	width: 350px;
+}
+.symptoms-img {
+	padding-right: 12px;
+}
+.symptoms-item {
+	width: 300px;
+}
+.text-wrapper {
+	margin: 0 auto;
+	max-width: 700px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+strong {
+	padding-right: 10px;
+	font-size: 27px;
+	font-weight: bold;
+}
+.products-item {
+	max-width: 350px;
+}
+.products-img {
+	max-width: 300px;
+}
+.products {
+	background-image: 	linear-gradient(to bottom,  rgba(254,255,255,0.7),rgba(254,255,254,0.7)),
+						url(../img/3413449.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+.card {
+	min-width: 0!important;
+}
+img {
+	min-width: 0!important;
+}
+li {
+	min-width: 0!important;
+}
+.footer {
+	color: white!important;
+	background-image: 	linear-gradient(to bottom,  rgba(2,17,34,0.9),rgba(2,17,33,0.9)),
+						url(../img/1135.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+.input-btn {
+}
+@media (max-width: 994px) {
+	.contain {
+		flex-direction: column-reverse!important;
+		flex-wrap: wrap!important;
+		align-items: center!important;
+		justify-content: center!important;
+	}
+	.containe {
+		flex-wrap: wrap!important;
+		align-items: center!important;
+		justify-content: center!important;
+	}
+	.products-list {
+		flex-wrap: wrap;
+		justify-content: space-around!important;
+		align-items: center!important;
+	}
+	.products-item {
+		padding-bottom: 20px;
+		min-width: 30px;
+	}
+}
+@media (max-width: 515px) {
+	.image {
+		width: 80vw;
+	}
+}
+@media (max-width: 774px) {
+	.row {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.list-wrap {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media (max-width: 375px) {
+	.row {
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+}
+@media (max-width: 1200px) {
+	.footer-list {
+		flex-wrap: wrap;
+	}
 }
